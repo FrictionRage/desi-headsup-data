@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "version": 1,
+    "last_updated": "2025-12-05",
+    "min_app_version": "1.0.0"
+  },
+  "categories": [
+    {
+      "id": "bollywood_movies",
+      "title": "Bollywood Movies",
+      "description": "Act out these hit films!",
+      "image": "bollywood_movies_bg", 
+      "background_color": "#FF9933",
+      "text_color": "#FFFFFF",
+      "is_active": true,
+      "rules": [
+        "No speaking the movie name",
+        "Humming songs is allowed",
+        "No rhyming"
+      ],
+      "words": [
+        {"id": "mov_001", "text": "Sholay"},
+        {"id": "mov_002", "text": "Dilwale Dulhania Le Jayenge"},
+        {"id": "mov_003", "text": "3 Idiots"},
+        {"id": "mov_004", "text": "Lagaan"},
+        {"id": "mov_005", "text": "Kabhi Khushi Kabhie Gham"},
+        {"id": "mov_006", "text": "Zindagi Na Milegi Dobara"},
+        {"id": "mov_007", "text": "Queen"},
+        {"id": "mov_008", "text": "Dangal"},
+        {"id": "mov_009", "text": "Gully Boy"},
+        {"id": "mov_010", "text": "Baahubali"}
+      ]
+    },
+    {
+      "id": "actors_actresses",
+      "title": "Actors & Actresses",
+      "description": "Guess the star!",
+      "image": "actors_bg",
+      "background_color": "#138808",
+      "text_color": "#FFFFFF",
+      "is_active": true,
+      "rules": [
+        "Act like them",
+        "Quote their dialogues",
+        "No naming them"
+      ],
+      "words": [
+        {"id": "act_001", "text": "Shah Rukh Khan"},
+        {"id": "act_002", "text": "Amitabh Bachchan"},
+        {"id": "act_003", "text": "Deepika Padukone"},
+        {"id": "act_004", "text": "Alia Bhatt"},
+        {"id": "act_005", "text": "Ranveer Singh"},
+        {"id": "act_006", "text": "Priyanka Chopra"},
+        {"id": "act_007", "text": "Salman Khan"},
+        {"id": "act_008", "text": "Kareena Kapoor"},
+        {"id": "act_009", "text": "Aamir Khan"},
+        {"id": "act_010", "text": "Ranbir Kapoor"}
+      ]
+    },
+    {
+      "id": "desi_food",
+      "title": "Desi Food",
+      "description": "Yummy treats!",
+      "image": "food_bg",
+      "background_color": "#000088",
+      "text_color": "#FFFFFF",
+      "is_active": true,
+      "rules": [
+        "Describe the taste",
+        "Describe ingredients",
+        "No naming the dish"
+      ],
+      "words": [
+        {"id": "food_001", "text": "Biryani"},
+        {"id": "food_002", "text": "Pani Puri"},
+        {"id": "food_003", "text": "Samosa"},
+        {"id": "food_004", "text": "Butter Chicken"},
+        {"id": "food_005", "text": "Dosa"},
+        {"id": "food_006", "text": "Vada Pav"},
+        {"id": "food_007", "text": "Gulab Jamun"},
+        {"id": "food_008", "text": "Chole Bhature"},
+        {"id": "food_009", "text": "Pav Bhaji"},
+        {"id": "food_010", "text": "Jalebi"}
+      ]
+    }
+  ]
+}
