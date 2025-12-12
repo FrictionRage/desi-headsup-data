@@ -21,14 +21,7 @@
       "words": [
         {"id": "mov_001", "text": "Sholay"},
         {"id": "mov_002", "text": "Dilwale Dulhania Le Jayenge"},
-        {"id": "mov_003", "text": "3 Idiots"},
-        {"id": "mov_004", "text": "Lagaan"},
-        {"id": "mov_005", "text": "Kabhi Khushi Kabhie Gham"},
-        {"id": "mov_006", "text": "Zindagi Na Milegi Dobara"},
-        {"id": "mov_007", "text": "Queen"},
-        {"id": "mov_008", "text": "Dangal"},
-        {"id": "mov_009", "text": "Gully Boy"},
-        {"id": "mov_010", "text": "Baahubali"}
+        {"id": "mov_003", "text": "3 Idiots"}
       ]
     },
     {
