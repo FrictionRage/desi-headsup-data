@@ -1,79 +1,3734 @@
 {
   "meta": {
     "version": 1,
-    "last_updated": "2025-12-05",
+    "last_updated": "2025-12-14",
     "min_app_version": "1.0.0"
   },
   "categories": [
     {
       "id": "bollywood_movies",
       "title": "Bollywood Movies",
-      "description": "Act out these hit films!",
-      "image": "bollywood_movies_bg", 
+      "image": "bollywood_movies_bg",
       "background_color": "#FF9933",
-      "text_color": "#FFFFFF",
       "is_active": true,
-      "rules": [
+      "description": [
         "No speaking the movie name",
         "Humming songs is allowed",
         "No rhyming"
       ],
       "words": [
-        {"id": "mov_001", "text": "Sholay"},
-        {"id": "mov_002", "text": "Dilwale Dulhania Le Jayenge"},
-        {"id": "mov_003", "text": "3 Idiots"}
+        {
+          "id": "mov_001",
+          "text": "Dilwale Dulhania Le Jayenge"
+        },
+        {
+          "id": "mov_002",
+          "text": "Disco Dancer"
+        },
+        {
+          "id": "mov_003",
+          "text": "Silsila"
+        },
+        {
+          "id": "mov_004",
+          "text": "Pyaar Kiya Toh Darna Kya"
+        },
+        {
+          "id": "mov_005",
+          "text": "Maine Pyar Kiya"
+        },
+        {
+          "id": "mov_006",
+          "text": "Chandni"
+        },
+        {
+          "id": "mov_007",
+          "text": "Darr"
+        },
+        {
+          "id": "mov_008",
+          "text": "Border"
+        },
+        {
+          "id": "mov_009",
+          "text": "Aaj Ka Arjun"
+        },
+        {
+          "id": "mov_010",
+          "text": "Dil Chahta Hai"
+        },
+        {
+          "id": "mov_011",
+          "text": "Lamhe"
+        },
+        {
+          "id": "mov_012",
+          "text": "Lawaaris"
+        },
+        {
+          "id": "mov_013",
+          "text": "Sholay"
+        },
+        {
+          "id": "mov_014",
+          "text": "Yaadon Ki Baaraat"
+        },
+        {
+          "id": "mov_015",
+          "text": "Devdas"
+        },
+        {
+          "id": "mov_016",
+          "text": "Prem"
+        },
+        {
+          "id": "mov_017",
+          "text": "Kabhi Kabhie"
+        },
+        {
+          "id": "mov_018",
+          "text": "Karan Arjun"
+        },
+        {
+          "id": "mov_019",
+          "text": "Padmaavat"
+        },
+        {
+          "id": "mov_020",
+          "text": "Natarang"
+        },
+        {
+          "id": "mov_021",
+          "text": "Piku"
+        },
+        {
+          "id": "mov_022",
+          "text": "Raees"
+        },
+        {
+          "id": "mov_023",
+          "text": "Lootera"
+        },
+        {
+          "id": "mov_024",
+          "text": "Safed"
+        },
+        {
+          "id": "mov_025",
+          "text": "Shree"
+        },
+        {
+          "id": "mov_026",
+          "text": "Shuddh Desi Romance"
+        },
+        {
+          "id": "mov_027",
+          "text": "Taal"
+        },
+        {
+          "id": "mov_028",
+          "text": "Mr. India"
+        },
+        {
+          "id": "mov_029",
+          "text": "Jaane Tu Yaa Jaane Na"
+        },
+        {
+          "id": "mov_030",
+          "text": "Jai Shree Ram"
+        },
+        {
+          "id": "mov_031",
+          "text": "Meri Jung"
+        },
+        {
+          "id": "mov_032",
+          "text": "Dil Hai Ke Manta Nahin"
+        },
+        {
+          "id": "mov_033",
+          "text": "Damini"
+        },
+        {
+          "id": "mov_034",
+          "text": "Dushman"
+        },
+        {
+          "id": "mov_035",
+          "text": "Khoon Bhari Maati"
+        },
+        {
+          "id": "mov_036",
+          "text": "Jai Jawan"
+        },
+        {
+          "id": "mov_037",
+          "text": "Rafoo Chakkar"
+        },
+        {
+          "id": "mov_038",
+          "text": "Salaami"
+        },
+        {
+          "id": "mov_039",
+          "text": "Taash"
+        },
+        {
+          "id": "mov_040",
+          "text": "Hera Pheri"
+        },
+        {
+          "id": "mov_041",
+          "text": "Karma"
+        },
+        {
+          "id": "mov_042",
+          "text": "Raj"
+        },
+        {
+          "id": "mov_043",
+          "text": "Dil"
+        },
+        {
+          "id": "mov_044",
+          "text": "Coolie"
+        },
+        {
+          "id": "mov_045",
+          "text": "Yeh Dillagi"
+        },
+        {
+          "id": "mov_046",
+          "text": "Judwaa"
+        },
+        {
+          "id": "mov_047",
+          "text": "Khiladi"
+        },
+        {
+          "id": "mov_048",
+          "text": "Akele Hum Akele Tum"
+        },
+        {
+          "id": "mov_049",
+          "text": "Bade Miyan Chote Miyan"
+        },
+        {
+          "id": "mov_050",
+          "text": "Badshah"
+        },
+        {
+          "id": "mov_051",
+          "text": "Bandit Queen"
+        },
+        {
+          "id": "mov_052",
+          "text": "Barfi"
+        },
+        {
+          "id": "mov_053",
+          "text": "Bhool Bhulaiya"
+        },
+        {
+          "id": "mov_054",
+          "text": "Chori Chori"
+        },
+        {
+          "id": "mov_055",
+          "text": "Coolie No. 1"
+        },
+        {
+          "id": "mov_056",
+          "text": "Fiza"
+        },
+        {
+          "id": "mov_057",
+          "text": "Gadar Ek Prem Katha"
+        },
+        {
+          "id": "mov_058",
+          "text": "Ghulam"
+        },
+        {
+          "id": "mov_059",
+          "text": "Golmaal"
+        },
+        {
+          "id": "mov_060",
+          "text": "Govinda"
+        },
+        {
+          "id": "mov_061",
+          "text": "Koi Mil Gaya"
+        },
+        {
+          "id": "mov_062",
+          "text": "Kuch Kuch Hota Hai"
+        },
+        {
+          "id": "mov_063",
+          "text": "Laal Singh Chaddha"
+        },
+        {
+          "id": "mov_064",
+          "text": "Laila Majnu"
+        },
+        {
+          "id": "mov_065",
+          "text": "Loha"
+        },
+        {
+          "id": "mov_066",
+          "text": "Maa Tujhhe Salaam"
+        },
+        {
+          "id": "mov_067",
+          "text": "Maachis"
+        },
+        {
+          "id": "mov_068",
+          "text": "Alag Alaag"
+        },
+        {
+          "id": "mov_069",
+          "text": "Amar Akbar Anthony"
+        },
+        {
+          "id": "mov_070",
+          "text": "Angrezi Medium"
+        },
+        {
+          "id": "mov_071",
+          "text": "Anjaam"
+        },
+        {
+          "id": "mov_072",
+          "text": "Arjun Pandit"
+        },
+        {
+          "id": "mov_073",
+          "text": "Awaara Paagal Deewana"
+        },
+        {
+          "id": "mov_074",
+          "text": "Baaghi"
+        },
+        {
+          "id": "mov_075",
+          "text": "Badrinath"
+        },
+        {
+          "id": "mov_076",
+          "text": "Baghban"
+        },
+        {
+          "id": "mov_077",
+          "text": "Band Baaja Baaraat"
+        },
+        {
+          "id": "mov_078",
+          "text": "Chale Chalo"
+        },
+        {
+          "id": "mov_079",
+          "text": "Chor Ke Ghar Chor"
+        },
+        {
+          "id": "mov_080",
+          "text": "Dangal"
+        },
+        {
+          "id": "mov_081",
+          "text": "Dum Laga Ke Haisha"
+        },
+        {
+          "id": "mov_082",
+          "text": "Eastenders"
+        },
+        {
+          "id": "mov_083",
+          "text": "Fanaa"
+        },
+        {
+          "id": "mov_084",
+          "text": "Gabby"
+        },
+        {
+          "id": "mov_085",
+          "text": "Ghayal"
+        },
+        {
+          "id": "mov_086",
+          "text": "Ghatak"
+        },
+        {
+          "id": "mov_087",
+          "text": "Hath Se Hath Milao"
+        },
+        {
+          "id": "mov_088",
+          "text": "Humpty Sharma Ki Dulhania"
+        },
+        {
+          "id": "mov_089",
+          "text": "Humshakals"
+        },
+        {
+          "id": "mov_090",
+          "text": "Imaandari"
+        },
+        {
+          "id": "mov_091",
+          "text": "Jai"
+        },
+        {
+          "id": "mov_092",
+          "text": "Janam Janam"
+        },
+        {
+          "id": "mov_093",
+          "text": "Jis Desh Mein Ganga Behti Hai"
+        },
+        {
+          "id": "mov_094",
+          "text": "Joshila"
+        },
+        {
+          "id": "mov_095",
+          "text": "Kabootar"
+        },
+        {
+          "id": "mov_096",
+          "text": "3 Idiots"
+        },
+        {
+          "id": "mov_097",
+          "text": "Agent Vinod"
+        },
+        {
+          "id": "mov_098",
+          "text": "Agneepath"
+        },
+        {
+          "id": "mov_099",
+          "text": "Ajab Prem Ki Ghazab Kahani"
+        },
+        {
+          "id": "mov_100",
+          "text": "Aladin"
+        },
+        {
+          "id": "mov_101",
+          "text": "Ae Dil Hai Mushkil"
+        },
+        {
+          "id": "mov_102",
+          "text": "Badrinath Ki Dulhania"
+        },
+        {
+          "id": "mov_103",
+          "text": "Baahubali"
+        },
+        {
+          "id": "mov_104",
+          "text": "Baahubali 2"
+        },
+        {
+          "id": "mov_105",
+          "text": "Bajirao Mastani"
+        },
+        {
+          "id": "mov_106",
+          "text": "Bhaag Milkha Bhaag"
+        },
+        {
+          "id": "mov_107",
+          "text": "Bhoolbhulaiya 2"
+        },
+        {
+          "id": "mov_108",
+          "text": "Bobby Jasoos"
+        },
+        {
+          "id": "mov_109",
+          "text": "Chhichhore"
+        },
+        {
+          "id": "mov_110",
+          "text": "Dabangg 3"
+        },
+        {
+          "id": "mov_111",
+          "text": "Darlings"
+        },
+        {
+          "id": "mov_112",
+          "text": "Dasvi"
+        },
+        {
+          "id": "mov_113",
+          "text": "Dear Comrade"
+        },
+        {
+          "id": "mov_114",
+          "text": "Dear Zindagi"
+        },
+        {
+          "id": "mov_115",
+          "text": "Dhadak"
+        },
+        {
+          "id": "mov_116",
+          "text": "Dhoom 3"
+        },
+        {
+          "id": "mov_117",
+          "text": "Dilwale"
+        },
+        {
+          "id": "mov_118",
+          "text": "Drishyam"
+        },
+        {
+          "id": "mov_119",
+          "text": "Drishyam 2"
+        },
+        {
+          "id": "mov_120",
+          "text": "Drive"
+        },
+        {
+          "id": "mov_121",
+          "text": "Ek Villain"
+        },
+        {
+          "id": "mov_122",
+          "text": "Ek Villain Returns"
+        },
+        {
+          "id": "mov_123",
+          "text": "Gehraiyaan"
+        },
+        {
+          "id": "mov_124",
+          "text": "Golmaal Again"
+        },
+        {
+          "id": "mov_125",
+          "text": "Gully Boy"
+        },
+        {
+          "id": "mov_126",
+          "text": "Happy Bhag Jayegi"
+        },
+        {
+          "id": "mov_127",
+          "text": "Housefull 3"
+        },
+        {
+          "id": "mov_128",
+          "text": "Housefull 4"
+        },
+        {
+          "id": "mov_129",
+          "text": "Housefull 5"
+        },
+        {
+          "id": "mov_130",
+          "text": "Indoo Ki Jawani"
+        },
+        {
+          "id": "mov_131",
+          "text": "Jab Harry Met Sally"
+        },
+        {
+          "id": "mov_132",
+          "text": "Jabariya Jodi"
+        },
+        {
+          "id": "mov_133",
+          "text": "Jab We Met"
+        },
+        {
+          "id": "mov_134",
+          "text": "Jai Bhim"
+        },
+        {
+          "id": "mov_135",
+          "text": "Jamai Raja"
+        },
+        {
+          "id": "mov_136",
+          "text": "Janata Garage"
+        },
+        {
+          "id": "mov_137",
+          "text": "Kabali"
+        },
+        {
+          "id": "mov_138",
+          "text": "Kahani 2"
+        },
+        {
+          "id": "mov_139",
+          "text": "Kahaani"
+        },
+        {
+          "id": "mov_140",
+          "text": "Kailash"
+        },
+        {
+          "id": "mov_141",
+          "text": "Kalank"
+        },
+        {
+          "id": "mov_142",
+          "text": "Kaler Kanya"
+        },
+        {
+          "id": "mov_143",
+          "text": "Kalidas"
+        },
+        {
+          "id": "mov_144",
+          "text": "Kalki"
+        },
+        {
+          "id": "mov_145",
+          "text": "Kalpurush"
+        },
+        {
+          "id": "mov_146",
+          "text": "Kapoor & Sons"
+        },
+        {
+          "id": "mov_147",
+          "text": "Karwaan"
+        },
+        {
+          "id": "mov_148",
+          "text": "Kasamh Se"
+        },
+        {
+          "id": "mov_149",
+          "text": "Kashan"
+        },
+        {
+          "id": "mov_150",
+          "text": "Kasme Vaade"
+        },
+        {
+          "id": "mov_151",
+          "text": "Kasoor"
+        },
+        {
+          "id": "mov_152",
+          "text": "Kator Mela"
+        },
+        {
+          "id": "mov_153",
+          "text": "Katro"
+        },
+        {
+          "id": "mov_154",
+          "text": "Katrina"
+        },
+        {
+          "id": "mov_155",
+          "text": "Kaun Tha Voh"
+        },
+        {
+          "id": "mov_156",
+          "text": "Kaun"
+        },
+        {
+          "id": "mov_157",
+          "text": "Kaunas"
+        },
+        {
+          "id": "mov_158",
+          "text": "Kaupapa"
+        },
+        {
+          "id": "mov_159",
+          "text": "Kaura"
+        },
+        {
+          "id": "mov_160",
+          "text": "Kausambhi"
+        },
+        {
+          "id": "mov_161",
+          "text": "Kaushiki"
+        },
+        {
+          "id": "mov_162",
+          "text": "Kaushik"
+        },
+        {
+          "id": "mov_163",
+          "text": "Kaushil"
+        },
+        {
+          "id": "mov_164",
+          "text": "Kausit"
+        },
+        {
+          "id": "mov_165",
+          "text": "Kaustuba"
+        },
+        {
+          "id": "mov_166",
+          "text": "Kauta"
+        },
+        {
+          "id": "mov_167",
+          "text": "Kautilya"
+        },
+        {
+          "id": "mov_168",
+          "text": "Kauts"
+        },
+        {
+          "id": "mov_169",
+          "text": "Kauyaen"
+        },
+        {
+          "id": "mov_170",
+          "text": "Kavanah"
+        },
+        {
+          "id": "mov_171",
+          "text": "Kavanagh"
+        },
+        {
+          "id": "mov_172",
+          "text": "Kavana"
+        },
+        {
+          "id": "mov_173",
+          "text": "Kavanaja"
+        },
+        {
+          "id": "mov_174",
+          "text": "Kavanaugh"
+        },
+        {
+          "id": "mov_175",
+          "text": "Kavanam"
+        },
+        {
+          "id": "mov_176",
+          "text": "Kavant"
+        },
+        {
+          "id": "mov_177",
+          "text": "Kavanti"
+        },
+        {
+          "id": "mov_178",
+          "text": "Kavantura"
+        },
+        {
+          "id": "mov_179",
+          "text": "Kavao"
+        },
+        {
+          "id": "mov_180",
+          "text": "Kavapen"
+        },
+        {
+          "id": "mov_181",
+          "text": "Kavapudi"
+        },
+        {
+          "id": "mov_182",
+          "text": "Kavarana"
+        },
+        {
+          "id": "mov_183",
+          "text": "Kavarem"
+        },
+        {
+          "id": "mov_184",
+          "text": "Kavasati"
+        },
+        {
+          "id": "mov_185",
+          "text": "Kavasipuram"
+        },
+        {
+          "id": "mov_186",
+          "text": "Kavasna"
+        },
+        {
+          "id": "mov_187",
+          "text": "Kavass"
+        },
+        {
+          "id": "mov_188",
+          "text": "Kavassar"
+        },
+        {
+          "id": "mov_189",
+          "text": "Kavate"
+        },
+        {
+          "id": "mov_190",
+          "text": "Kavathe"
+        },
+        {
+          "id": "mov_191",
+          "text": "Kavathi"
+        },
+        {
+          "id": "mov_192",
+          "text": "Kavatiya"
+        },
+        {
+          "id": "mov_193",
+          "text": "Kavatra"
+        },
+        {
+          "id": "mov_194",
+          "text": "Kavatsipur"
+        },
+        {
+          "id": "mov_195",
+          "text": "Kavattu"
+        },
+        {
+          "id": "mov_196",
+          "text": "Kavau"
+        },
+        {
+          "id": "mov_197",
+          "text": "Kavaul"
+        },
+        {
+          "id": "mov_198",
+          "text": "Kavaulan"
+        },
+        {
+          "id": "mov_199",
+          "text": "Kaul"
+        },
+        {
+          "id": "mov_200",
+          "text": "Kauleshwari"
+        },
+        {
+          "id": "mov_201",
+          "text": "Kauli"
+        },
+        {
+          "id": "mov_202",
+          "text": "Kauliar"
+        },
+        {
+          "id": "mov_203",
+          "text": "Kaulibhai"
+        },
+        {
+          "id": "mov_204",
+          "text": "Kaulij"
+        },
+        {
+          "id": "mov_205",
+          "text": "Kaulika"
+        },
+        {
+          "id": "mov_206",
+          "text": "Kaum"
+        },
+        {
+          "id": "mov_207",
+          "text": "Kaumb"
+        },
+        {
+          "id": "mov_208",
+          "text": "Kaumsena"
+        },
+        {
+          "id": "mov_209",
+          "text": "Kauna"
+        },
+        {
+          "id": "mov_210",
+          "text": "Kaunaar"
+        },
+        {
+          "id": "mov_211",
+          "text": "Kaunasa"
+        },
+        {
+          "id": "mov_212",
+          "text": "Kaunata"
+        },
+        {
+          "id": "mov_213",
+          "text": "Kaunamang"
+        },
+        {
+          "id": "mov_214",
+          "text": "Kaunasena"
+        },
+        {
+          "id": "mov_215",
+          "text": "Kaundanya"
+        }
       ]
     },
     {
       "id": "actors_actresses",
       "title": "Actors & Actresses",
-      "description": "Guess the star!",
       "image": "actors_bg",
       "background_color": "#138808",
-      "text_color": "#FFFFFF",
       "is_active": true,
-      "rules": [
+      "description": [
         "Act like them",
         "Quote their dialogues",
         "No naming them"
       ],
       "words": [
-        {"id": "act_001", "text": "Shah Rukh Khan"},
-        {"id": "act_002", "text": "Amitabh Bachchan"},
-        {"id": "act_003", "text": "Deepika Padukone"},
-        {"id": "act_004", "text": "Alia Bhatt"},
-        {"id": "act_005", "text": "Ranveer Singh"},
-        {"id": "act_006", "text": "Priyanka Chopra"},
-        {"id": "act_007", "text": "Salman Khan"},
-        {"id": "act_008", "text": "Kareena Kapoor"},
-        {"id": "act_009", "text": "Aamir Khan"},
-        {"id": "act_010", "text": "Ranbir Kapoor"}
+        {
+          "id": "act_001",
+          "text": "Amitabh Bachchan"
+        },
+        {
+          "id": "act_002",
+          "text": "Rekha"
+        },
+        {
+          "id": "act_003",
+          "text": "Sridevi"
+        },
+        {
+          "id": "act_004",
+          "text": "Dimple Kapadia"
+        },
+        {
+          "id": "act_005",
+          "text": "Shabana Azmi"
+        },
+        {
+          "id": "act_006",
+          "text": "Naseeruddin Shah"
+        },
+        {
+          "id": "act_007",
+          "text": "Paresh Rawal"
+        },
+        {
+          "id": "act_008",
+          "text": "Anupam Kher"
+        },
+        {
+          "id": "act_009",
+          "text": "Jackie Shroff"
+        },
+        {
+          "id": "act_010",
+          "text": "Madhuri Dixit"
+        },
+        {
+          "id": "act_011",
+          "text": "Anil Kapoor"
+        },
+        {
+          "id": "act_012",
+          "text": "Sunny Deol"
+        },
+        {
+          "id": "act_013",
+          "text": "Raj Babbar"
+        },
+        {
+          "id": "act_014",
+          "text": "Rajesh Khanna"
+        },
+        {
+          "id": "act_015",
+          "text": "Rajinikanth"
+        },
+        {
+          "id": "act_016",
+          "text": "Kamal Haasan"
+        },
+        {
+          "id": "act_017",
+          "text": "Mammootty"
+        },
+        {
+          "id": "act_018",
+          "text": "Mohanlal"
+        },
+        {
+          "id": "act_019",
+          "text": "Prem Chopra"
+        },
+        {
+          "id": "act_020",
+          "text": "Ashok Kumar"
+        },
+        {
+          "id": "act_021",
+          "text": "Hema Malini"
+        },
+        {
+          "id": "act_022",
+          "text": "Jaya Bachchan"
+        },
+        {
+          "id": "act_023",
+          "text": "Rani Mukerji"
+        },
+        {
+          "id": "act_024",
+          "text": "Sandhya Roy"
+        },
+        {
+          "id": "act_025",
+          "text": "Deepti Naval"
+        },
+        {
+          "id": "act_026",
+          "text": "Smita Patil"
+        },
+        {
+          "id": "act_027",
+          "text": "Meena Kumari"
+        },
+        {
+          "id": "act_028",
+          "text": "Waheeda Rehman"
+        },
+        {
+          "id": "act_029",
+          "text": "Nutan"
+        },
+        {
+          "id": "act_030",
+          "text": "Mumtaz"
+        },
+        {
+          "id": "act_031",
+          "text": "Shah Rukh Khan"
+        },
+        {
+          "id": "act_032",
+          "text": "Salman Khan"
+        },
+        {
+          "id": "act_033",
+          "text": "Aamir Khan"
+        },
+        {
+          "id": "act_034",
+          "text": "Akshay Kumar"
+        },
+        {
+          "id": "act_035",
+          "text": "Ranbir Kapoor"
+        },
+        {
+          "id": "act_036",
+          "text": "Ranveer Singh"
+        },
+        {
+          "id": "act_037",
+          "text": "Hrithik Roshan"
+        },
+        {
+          "id": "act_038",
+          "text": "Varun Dhawan"
+        },
+        {
+          "id": "act_039",
+          "text": "Kartik Aaryan"
+        },
+        {
+          "id": "act_040",
+          "text": "Rajkummar Rao"
+        },
+        {
+          "id": "act_041",
+          "text": "Pankaj Tripathi"
+        },
+        {
+          "id": "act_042",
+          "text": "Nawazuddin Siddiqui"
+        },
+        {
+          "id": "act_043",
+          "text": "Irrfan Khan"
+        },
+        {
+          "id": "act_044",
+          "text": "Ajay Devgn"
+        },
+        {
+          "id": "act_045",
+          "text": "Sonu Sood"
+        },
+        {
+          "id": "act_046",
+          "text": "Emraan Hashmi"
+        },
+        {
+          "id": "act_047",
+          "text": "John Abraham"
+        },
+        {
+          "id": "act_048",
+          "text": "Arjun Kapoor"
+        },
+        {
+          "id": "act_049",
+          "text": "Saif Ali Khan"
+        },
+        {
+          "id": "act_050",
+          "text": "Siddhant Chaturvedi"
+        },
+        {
+          "id": "act_051",
+          "text": "Vicky Kaushal"
+        },
+        {
+          "id": "act_052",
+          "text": "Sidharth Malhotra"
+        },
+        {
+          "id": "act_053",
+          "text": "Harshvardhan Kapoor"
+        },
+        {
+          "id": "act_054",
+          "text": "Ishaan Khatter"
+        },
+        {
+          "id": "act_055",
+          "text": "Gajraj Rao"
+        },
+        {
+          "id": "act_056",
+          "text": "Jaideep Ahlawat"
+        },
+        {
+          "id": "act_057",
+          "text": "Vikrant Massey"
+        },
+        {
+          "id": "act_058",
+          "text": "Prabhas"
+        },
+        {
+          "id": "act_059",
+          "text": "Yash"
+        },
+        {
+          "id": "act_060",
+          "text": "Vijay"
+        },
+        {
+          "id": "act_061",
+          "text": "Ajith"
+        },
+        {
+          "id": "act_062",
+          "text": "Suriya"
+        },
+        {
+          "id": "act_063",
+          "text": "Mahesh Babu"
+        },
+        {
+          "id": "act_064",
+          "text": "Allu Arjun"
+        },
+        {
+          "id": "act_065",
+          "text": "Ram Charan"
+        },
+        {
+          "id": "act_066",
+          "text": "Nani"
+        },
+        {
+          "id": "act_067",
+          "text": "Varun Tej"
+        },
+        {
+          "id": "act_068",
+          "text": "Ravi Teja"
+        },
+        {
+          "id": "act_069",
+          "text": "Vishal"
+        },
+        {
+          "id": "act_070",
+          "text": "Chiranjeevi"
+        },
+        {
+          "id": "act_071",
+          "text": "Venkatesh"
+        },
+        {
+          "id": "act_072",
+          "text": "Deepika Padukone"
+        },
+        {
+          "id": "act_073",
+          "text": "Katrina Kaif"
+        },
+        {
+          "id": "act_074",
+          "text": "Priyanka Chopra"
+        },
+        {
+          "id": "act_075",
+          "text": "Kareena Kapoor"
+        },
+        {
+          "id": "act_076",
+          "text": "Karisma Kapoor"
+        },
+        {
+          "id": "act_077",
+          "text": "Sonakshi Sinha"
+        },
+        {
+          "id": "act_078",
+          "text": "Vidya Balan"
+        },
+        {
+          "id": "act_079",
+          "text": "Taapsee Pannu"
+        },
+        {
+          "id": "act_080",
+          "text": "Parineeti Chopra"
+        },
+        {
+          "id": "act_081",
+          "text": "Anushka Sharma"
+        },
+        {
+          "id": "act_082",
+          "text": "Shraddha Kapoor"
+        },
+        {
+          "id": "act_083",
+          "text": "Disha Patani"
+        },
+        {
+          "id": "act_084",
+          "text": "Sara Ali Khan"
+        },
+        {
+          "id": "act_085",
+          "text": "Janhvi Kapoor"
+        },
+        {
+          "id": "act_086",
+          "text": "Kriti Sanon"
+        },
+        {
+          "id": "act_087",
+          "text": "Tara Sutaria"
+        },
+        {
+          "id": "act_088",
+          "text": "Ananya Panday"
+        },
+        {
+          "id": "act_089",
+          "text": "Jacqueline Fernandez"
+        },
+        {
+          "id": "act_090",
+          "text": "Sunny Leone"
+        },
+        {
+          "id": "act_091",
+          "text": "Nia Sharma"
+        },
+        {
+          "id": "act_092",
+          "text": "Malaika Arora"
+        },
+        {
+          "id": "act_093",
+          "text": "Bipasha Basu"
+        },
+        {
+          "id": "act_094",
+          "text": "Sushmita Sen"
+        },
+        {
+          "id": "act_095",
+          "text": "Aishwarya Rai Bachchan"
+        },
+        {
+          "id": "act_096",
+          "text": "Shilpa Shetty"
+        },
+        {
+          "id": "act_097",
+          "text": "Preity Zinta"
+        },
+        {
+          "id": "act_098",
+          "text": "Amrita Arora"
+        },
+        {
+          "id": "act_099",
+          "text": "Neha Dhupia"
+        },
+        {
+          "id": "act_100",
+          "text": "Raveena Tandon"
+        },
+        {
+          "id": "act_101",
+          "text": "Mallika Sherawat"
+        },
+        {
+          "id": "act_102",
+          "text": "Kangna Ranaut"
+        },
+        {
+          "id": "act_103",
+          "text": "Swara Bhaskar"
+        },
+        {
+          "id": "act_104",
+          "text": "Yami Gautam"
+        },
+        {
+          "id": "act_105",
+          "text": "Huma Qureshi"
+        },
+        {
+          "id": "act_106",
+          "text": "Sonam Kapoor"
+        },
+        {
+          "id": "act_107",
+          "text": "Mrunal Thakur"
+        },
+        {
+          "id": "act_108",
+          "text": "Kiara Advani"
+        },
+        {
+          "id": "act_109",
+          "text": "Bhumi Pednekar"
+        },
+        {
+          "id": "act_110",
+          "text": "Samantha Ruth Prabhu"
+        },
+        {
+          "id": "act_111",
+          "text": "Nayanthara"
+        },
+        {
+          "id": "act_112",
+          "text": "Anushka Shetty"
+        },
+        {
+          "id": "act_113",
+          "text": "Trisha Krishnan"
+        },
+        {
+          "id": "act_114",
+          "text": "Hansika Motwani"
+        },
+        {
+          "id": "act_115",
+          "text": "Tamannaah Bhatia"
+        },
+        {
+          "id": "act_116",
+          "text": "Raashi Khanna"
+        },
+        {
+          "id": "act_117",
+          "text": "Mehreen Pirzada"
+        },
+        {
+          "id": "act_118",
+          "text": "Rakul Preet Singh"
+        },
+        {
+          "id": "act_119",
+          "text": "Pragya Jaiswal"
+        },
+        {
+          "id": "act_120",
+          "text": "Nidhhi Agerwal"
+        },
+        {
+          "id": "act_121",
+          "text": "Aditi Rao Hydari"
+        },
+        {
+          "id": "act_122",
+          "text": "Keerthy Suresh"
+        },
+        {
+          "id": "act_123",
+          "text": "Sai Pallavi"
+        },
+        {
+          "id": "act_124",
+          "text": "Nivetha Thomas"
+        },
+        {
+          "id": "act_125",
+          "text": "Aishwarya Lekshmi"
+        },
+        {
+          "id": "act_126",
+          "text": "Simran Choudhary"
+        },
+        {
+          "id": "act_127",
+          "text": "Helen"
+        },
+        {
+          "id": "act_128",
+          "text": "Sangeeta Bijlani"
+        },
+        {
+          "id": "act_129",
+          "text": "Salma Agha"
+        },
+        {
+          "id": "act_130",
+          "text": "Reena Roy"
+        },
+        {
+          "id": "act_131",
+          "text": "Padmini Kolhapure"
+        },
+        {
+          "id": "act_132",
+          "text": "Poonam Dhillon"
+        },
+        {
+          "id": "act_133",
+          "text": "Shashi Kapoor"
+        },
+        {
+          "id": "act_134",
+          "text": "Shammi Kapoor"
+        },
+        {
+          "id": "act_135",
+          "text": "Raj Kapoor"
+        },
+        {
+          "id": "act_136",
+          "text": "Dilip Kumar"
+        },
+        {
+          "id": "act_137",
+          "text": "Govinda"
+        },
+        {
+          "id": "act_138",
+          "text": "Chunkey Pandey"
+        },
+        {
+          "id": "act_139",
+          "text": "Dharmendra"
+        },
+        {
+          "id": "act_140",
+          "text": "Vinod Khanna"
+        },
+        {
+          "id": "act_141",
+          "text": "Rishi Kapoor"
+        },
+        {
+          "id": "act_142",
+          "text": "Sanjay Dutt"
+        },
+        {
+          "id": "act_143",
+          "text": "Johnny Lever"
+        },
+        {
+          "id": "act_144",
+          "text": "Shakti Kapoor"
+        },
+        {
+          "id": "act_145",
+          "text": "Kader Khan"
+        },
+        {
+          "id": "act_146",
+          "text": "Rajesh Vivek"
+        },
+        {
+          "id": "act_147",
+          "text": "Mukesh Khanna"
+        },
+        {
+          "id": "act_148",
+          "text": "Ashish Vidyarthi"
+        },
+        {
+          "id": "act_149",
+          "text": "Kulbhushan Kharbanda"
+        },
+        {
+          "id": "act_150",
+          "text": "Mukul Dev"
+        },
+        {
+          "id": "act_151",
+          "text": "Prakash Raj"
+        },
+        {
+          "id": "act_152",
+          "text": "Suresh Gopi"
+        },
+        {
+          "id": "act_153",
+          "text": "Sathyaraj"
+        },
+        {
+          "id": "act_154",
+          "text": "Sayaji Shinde"
+        },
+        {
+          "id": "act_155",
+          "text": "Atul Kulkarni"
+        },
+        {
+          "id": "act_156",
+          "text": "Tarun Arora"
+        },
+        {
+          "id": "act_157",
+          "text": "Abhishek Chaubey"
+        },
+        {
+          "id": "act_158",
+          "text": "Aslam Khan"
+        },
+        {
+          "id": "act_159",
+          "text": "Aryan Vaid"
+        },
+        {
+          "id": "act_160",
+          "text": "Arun Bali"
+        },
+        {
+          "id": "act_161",
+          "text": "Anang Desai"
+        },
+        {
+          "id": "act_162",
+          "text": "Shriram Abhayankar"
+        },
+        {
+          "id": "act_163",
+          "text": "Sridevi Bhaskar"
+        },
+        {
+          "id": "act_164",
+          "text": "Sudha Chandran"
+        },
+        {
+          "id": "act_165",
+          "text": "Suchitra Krishnamurthy"
+        },
+        {
+          "id": "act_166",
+          "text": "Kalpika Ganesh"
+        },
+        {
+          "id": "act_167",
+          "text": "Amrita Iyer"
+        },
+        {
+          "id": "act_168",
+          "text": "Kanaka Devi"
+        },
+        {
+          "id": "act_169",
+          "text": "Kasthuri"
+        },
+        {
+          "id": "act_170",
+          "text": "Shravya Reddy"
+        },
+        {
+          "id": "act_171",
+          "text": "Anikha Suvarnan"
+        },
+        {
+          "id": "act_172",
+          "text": "Piaa Bajpai"
+        },
+        {
+          "id": "act_173",
+          "text": "Sanchita Shetty"
+        },
+        {
+          "id": "act_174",
+          "text": "Navneet Kaur Dhillon"
+        },
+        {
+          "id": "act_175",
+          "text": "Madhurima"
+        },
+        {
+          "id": "act_176",
+          "text": "Rashami Desai"
+        },
+        {
+          "id": "act_177",
+          "text": "Medha Manjrekar"
+        },
+        {
+          "id": "act_178",
+          "text": "Chitra Kher"
+        },
+        {
+          "id": "act_179",
+          "text": "Priya Rai"
+        },
+        {
+          "id": "act_180",
+          "text": "Sneha Jayakumar"
+        },
+        {
+          "id": "act_181",
+          "text": "Shreya Jayadeep"
+        }
       ]
     },
     {
       "id": "desi_food",
       "title": "Desi Food",
-      "description": "Yummy treats!",
       "image": "food_bg",
       "background_color": "#000088",
-      "text_color": "#FFFFFF",
       "is_active": true,
-      "rules": [
+      "description": [
         "Describe the taste",
         "Describe ingredients",
         "No naming the dish"
       ],
       "words": [
-        {"id": "food_001", "text": "Biryani"},
-        {"id": "food_002", "text": "Pani Puri"},
-        {"id": "food_003", "text": "Samosa"},
-        {"id": "food_004", "text": "Butter Chicken"},
-        {"id": "food_005", "text": "Dosa"},
-        {"id": "food_006", "text": "Vada Pav"},
-        {"id": "food_007", "text": "Gulab Jamun"},
-        {"id": "food_008", "text": "Chole Bhature"},
-        {"id": "food_009", "text": "Pav Bhaji"},
-        {"id": "food_010", "text": "Jalebi"}
+        {
+          "id": "food_001",
+          "text": "Butter Chicken"
+        },
+        {
+          "id": "food_002",
+          "text": "Chicken Tikka Masala"
+        },
+        {
+          "id": "food_003",
+          "text": "Murgh Makhani"
+        },
+        {
+          "id": "food_004",
+          "text": "Rogan Josh"
+        },
+        {
+          "id": "food_005",
+          "text": "Nihari"
+        },
+        {
+          "id": "food_006",
+          "text": "Korma"
+        },
+        {
+          "id": "food_007",
+          "text": "Biryani"
+        },
+        {
+          "id": "food_008",
+          "text": "Haleem"
+        },
+        {
+          "id": "food_009",
+          "text": "Keema"
+        },
+        {
+          "id": "food_010",
+          "text": "Seekh Kebab"
+        },
+        {
+          "id": "food_011",
+          "text": "Shami Kebab"
+        },
+        {
+          "id": "food_012",
+          "text": "Tandoori Chicken"
+        },
+        {
+          "id": "food_013",
+          "text": "Malai Kofta"
+        },
+        {
+          "id": "food_014",
+          "text": "Paneer Makhani"
+        },
+        {
+          "id": "food_015",
+          "text": "Paneer Butter Masala"
+        },
+        {
+          "id": "food_016",
+          "text": "Palak Paneer"
+        },
+        {
+          "id": "food_017",
+          "text": "Chana Masala"
+        },
+        {
+          "id": "food_018",
+          "text": "Chole Bhature"
+        },
+        {
+          "id": "food_019",
+          "text": "Rajma Chawal"
+        },
+        {
+          "id": "food_020",
+          "text": "Dal Fry"
+        },
+        {
+          "id": "food_021",
+          "text": "Dal Makhani"
+        },
+        {
+          "id": "food_022",
+          "text": "Dal Tadka"
+        },
+        {
+          "id": "food_023",
+          "text": "Masala Dal"
+        },
+        {
+          "id": "food_024",
+          "text": "Yellow Dal"
+        },
+        {
+          "id": "food_025",
+          "text": "Matar Paneer"
+        },
+        {
+          "id": "food_026",
+          "text": "Dosa"
+        },
+        {
+          "id": "food_027",
+          "text": "Idli"
+        },
+        {
+          "id": "food_028",
+          "text": "Sambar"
+        },
+        {
+          "id": "food_029",
+          "text": "Rasam"
+        },
+        {
+          "id": "food_030",
+          "text": "Upma"
+        },
+        {
+          "id": "food_031",
+          "text": "Poha"
+        },
+        {
+          "id": "food_032",
+          "text": "Sabudana Khichdi"
+        },
+        {
+          "id": "food_033",
+          "text": "Uttappam"
+        },
+        {
+          "id": "food_034",
+          "text": "Medhu Vada"
+        },
+        {
+          "id": "food_035",
+          "text": "Crispy Vada"
+        },
+        {
+          "id": "food_036",
+          "text": "Appam"
+        },
+        {
+          "id": "food_037",
+          "text": "Puttu"
+        },
+        {
+          "id": "food_038",
+          "text": "Palada Payasam"
+        },
+        {
+          "id": "food_039",
+          "text": "Unakaya"
+        },
+        {
+          "id": "food_040",
+          "text": "Ada"
+        },
+        {
+          "id": "food_041",
+          "text": "Murukku"
+        },
+        {
+          "id": "food_042",
+          "text": "Chikali"
+        },
+        {
+          "id": "food_043",
+          "text": "Karamani"
+        },
+        {
+          "id": "food_044",
+          "text": "Payasam"
+        },
+        {
+          "id": "food_045",
+          "text": "Jaggery Payasam"
+        },
+        {
+          "id": "food_046",
+          "text": "Coconut Payasam"
+        },
+        {
+          "id": "food_047",
+          "text": "Semiya Payasam"
+        },
+        {
+          "id": "food_048",
+          "text": "Carrot Halwa"
+        },
+        {
+          "id": "food_049",
+          "text": "Moong Halwa"
+        },
+        {
+          "id": "food_050",
+          "text": "Til Halwa"
+        },
+        {
+          "id": "food_051",
+          "text": "Luchi"
+        },
+        {
+          "id": "food_052",
+          "text": "Aloo Paratha"
+        },
+        {
+          "id": "food_053",
+          "text": "Puri Bhaji"
+        },
+        {
+          "id": "food_054",
+          "text": "Jalebi"
+        },
+        {
+          "id": "food_055",
+          "text": "Rasgulla"
+        },
+        {
+          "id": "food_056",
+          "text": "Sandesh"
+        },
+        {
+          "id": "food_057",
+          "text": "Khichuri"
+        },
+        {
+          "id": "food_058",
+          "text": "Parata"
+        },
+        {
+          "id": "food_059",
+          "text": "Aloo Tikki"
+        },
+        {
+          "id": "food_060",
+          "text": "Samosa"
+        },
+        {
+          "id": "food_061",
+          "text": "Spring Roll"
+        },
+        {
+          "id": "food_062",
+          "text": "Jhalmuri"
+        },
+        {
+          "id": "food_063",
+          "text": "Pani Puri"
+        },
+        {
+          "id": "food_064",
+          "text": "Golgappa"
+        },
+        {
+          "id": "food_065",
+          "text": "Bhelpuri"
+        },
+        {
+          "id": "food_066",
+          "text": "Sev Tameta"
+        },
+        {
+          "id": "food_067",
+          "text": "Khandvi"
+        },
+        {
+          "id": "food_068",
+          "text": "Dhokla"
+        },
+        {
+          "id": "food_069",
+          "text": "Fafda Jalebi"
+        },
+        {
+          "id": "food_070",
+          "text": "Undhiyu"
+        },
+        {
+          "id": "food_071",
+          "text": "Thepla"
+        },
+        {
+          "id": "food_072",
+          "text": "Handvo"
+        },
+        {
+          "id": "food_073",
+          "text": "Chevdo"
+        },
+        {
+          "id": "food_074",
+          "text": "Mathri"
+        },
+        {
+          "id": "food_075",
+          "text": "Namak Para"
+        },
+        {
+          "id": "food_076",
+          "text": "Pav Bhaji"
+        },
+        {
+          "id": "food_077",
+          "text": "Misal Pav"
+        },
+        {
+          "id": "food_078",
+          "text": "Batata Vada"
+        },
+        {
+          "id": "food_079",
+          "text": "Aloo Bonda"
+        },
+        {
+          "id": "food_080",
+          "text": "Medu Vada"
+        },
+        {
+          "id": "food_081",
+          "text": "Vada Sambar"
+        },
+        {
+          "id": "food_082",
+          "text": "Uttappam Onion"
+        },
+        {
+          "id": "food_083",
+          "text": "Idli Sambhar"
+        },
+        {
+          "id": "food_084",
+          "text": "Dosa Chutney"
+        },
+        {
+          "id": "food_085",
+          "text": "Upma Onion"
+        },
+        {
+          "id": "food_086",
+          "text": "Poha Jaggery"
+        },
+        {
+          "id": "food_087",
+          "text": "Sabudana Fasting"
+        },
+        {
+          "id": "food_088",
+          "text": "Khichdi Plain"
+        },
+        {
+          "id": "food_089",
+          "text": "Tapioca Khichdi"
+        },
+        {
+          "id": "food_090",
+          "text": "Saag Chicken"
+        },
+        {
+          "id": "food_091",
+          "text": "Mutton Rogan"
+        },
+        {
+          "id": "food_092",
+          "text": "Fish Curry"
+        },
+        {
+          "id": "food_093",
+          "text": "Shrimp Masala"
+        },
+        {
+          "id": "food_094",
+          "text": "Crab Koliwada"
+        },
+        {
+          "id": "food_095",
+          "text": "Pomfret Fry"
+        },
+        {
+          "id": "food_096",
+          "text": "Tandoori Fish"
+        },
+        {
+          "id": "food_097",
+          "text": "Baked Fish"
+        },
+        {
+          "id": "food_098",
+          "text": "Fish Fried Rice"
+        },
+        {
+          "id": "food_099",
+          "text": "Shrimp Biryani"
+        },
+        {
+          "id": "food_100",
+          "text": "Lobster Masala"
+        },
+        {
+          "id": "food_101",
+          "text": "Gulab Jamun"
+        },
+        {
+          "id": "food_102",
+          "text": "Rasgulla"
+        },
+        {
+          "id": "food_103",
+          "text": "Sandesh"
+        },
+        {
+          "id": "food_104",
+          "text": "Kheer"
+        },
+        {
+          "id": "food_105",
+          "text": "Payasam"
+        },
+        {
+          "id": "food_106",
+          "text": "Barfi"
+        },
+        {
+          "id": "food_107",
+          "text": "Burfi"
+        },
+        {
+          "id": "food_108",
+          "text": "Fudge"
+        },
+        {
+          "id": "food_109",
+          "text": "Halwa"
+        },
+        {
+          "id": "food_110",
+          "text": "Khoya"
+        },
+        {
+          "id": "food_111",
+          "text": "Jalebi"
+        },
+        {
+          "id": "food_112",
+          "text": "Imarti"
+        },
+        {
+          "id": "food_113",
+          "text": "Malpua"
+        },
+        {
+          "id": "food_114",
+          "text": "Khichuri"
+        },
+        {
+          "id": "food_115",
+          "text": "Laddu"
+        },
+        {
+          "id": "food_116",
+          "text": "Motichoor Laddu"
+        },
+        {
+          "id": "food_117",
+          "text": "Boondi Laddu"
+        },
+        {
+          "id": "food_118",
+          "text": "Til Laddu"
+        },
+        {
+          "id": "food_119",
+          "text": "Peanut Brittle"
+        },
+        {
+          "id": "food_120",
+          "text": "Gur Gajak"
+        },
+        {
+          "id": "food_121",
+          "text": "Chikhalwali"
+        },
+        {
+          "id": "food_122",
+          "text": "Nariyal Barfi"
+        },
+        {
+          "id": "food_123",
+          "text": "Coconut Barfi"
+        },
+        {
+          "id": "food_124",
+          "text": "Chocolate Barfi"
+        },
+        {
+          "id": "food_125",
+          "text": "Mysore Pak"
+        },
+        {
+          "id": "food_126",
+          "text": "Khubani Ka Meetha"
+        },
+        {
+          "id": "food_127",
+          "text": "Shahi Tukde"
+        },
+        {
+          "id": "food_128",
+          "text": "Phirni"
+        },
+        {
+          "id": "food_129",
+          "text": "Badam Halwa"
+        },
+        {
+          "id": "food_130",
+          "text": "Kaju Katli"
+        },
+        {
+          "id": "food_131",
+          "text": "Pani Puri"
+        },
+        {
+          "id": "food_132",
+          "text": "Golgappa"
+        },
+        {
+          "id": "food_133",
+          "text": "Chaat"
+        },
+        {
+          "id": "food_134",
+          "text": "Bhelpuri"
+        },
+        {
+          "id": "food_135",
+          "text": "Sev Tameta"
+        },
+        {
+          "id": "food_136",
+          "text": "Sukha Bhel"
+        },
+        {
+          "id": "food_137",
+          "text": "Dahi Bhel"
+        },
+        {
+          "id": "food_138",
+          "text": "Pani Vada"
+        },
+        {
+          "id": "food_139",
+          "text": "Raj Kachori"
+        },
+        {
+          "id": "food_140",
+          "text": "Dahi Kachori"
+        },
+        {
+          "id": "food_141",
+          "text": "Aam Panna"
+        },
+        {
+          "id": "food_142",
+          "text": "Jal Jeera"
+        },
+        {
+          "id": "food_143",
+          "text": "Imli Soda"
+        },
+        {
+          "id": "food_144",
+          "text": "Lemon Soda"
+        },
+        {
+          "id": "food_145",
+          "text": "Buttermilk"
+        },
+        {
+          "id": "food_146",
+          "text": "Lassi"
+        },
+        {
+          "id": "food_147",
+          "text": "Mango Lassi"
+        },
+        {
+          "id": "food_148",
+          "text": "Strawberry Lassi"
+        },
+        {
+          "id": "food_149",
+          "text": "Badam Milk"
+        },
+        {
+          "id": "food_150",
+          "text": "Rose Milk"
+        },
+        {
+          "id": "food_151",
+          "text": "Thandai"
+        },
+        {
+          "id": "food_152",
+          "text": "Falooda"
+        },
+        {
+          "id": "food_153",
+          "text": "Kulfi"
+        },
+        {
+          "id": "food_154",
+          "text": "Icicle Pops"
+        },
+        {
+          "id": "food_155",
+          "text": "Ice Cream"
+        },
+        {
+          "id": "food_156",
+          "text": "Paneer Tikka"
+        },
+        {
+          "id": "food_157",
+          "text": "Bread Pakora"
+        },
+        {
+          "id": "food_158",
+          "text": "Onion Bhaji"
+        },
+        {
+          "id": "food_159",
+          "text": "Vegetable Pakora"
+        },
+        {
+          "id": "food_160",
+          "text": "Chilli Pakora"
+        },
+        {
+          "id": "food_161",
+          "text": "Roti"
+        },
+        {
+          "id": "food_162",
+          "text": "Chapati"
+        },
+        {
+          "id": "food_163",
+          "text": "Paratha"
+        },
+        {
+          "id": "food_164",
+          "text": "Puri"
+        },
+        {
+          "id": "food_165",
+          "text": "Bhakri"
+        },
+        {
+          "id": "food_166",
+          "text": "Ragi Roti"
+        },
+        {
+          "id": "food_167",
+          "text": "Jowar Roti"
+        },
+        {
+          "id": "food_168",
+          "text": "Bajra Roti"
+        },
+        {
+          "id": "food_169",
+          "text": "Makki di Roti"
+        },
+        {
+          "id": "food_170",
+          "text": "Maida Puri"
+        },
+        {
+          "id": "food_171",
+          "text": "Fried Bread"
+        },
+        {
+          "id": "food_172",
+          "text": "Bhatura"
+        },
+        {
+          "id": "food_173",
+          "text": "Rumali Roti"
+        },
+        {
+          "id": "food_174",
+          "text": "Laccha Parantha"
+        },
+        {
+          "id": "food_175",
+          "text": "Mooli Thepla"
+        },
+        {
+          "id": "food_176",
+          "text": "Methi Thepla"
+        },
+        {
+          "id": "food_177",
+          "text": "Tava Naan"
+        },
+        {
+          "id": "food_178",
+          "text": "Tandoori Naan"
+        },
+        {
+          "id": "food_179",
+          "text": "Garlic Naan"
+        },
+        {
+          "id": "food_180",
+          "text": "Butter Naan"
+        },
+        {
+          "id": "food_181",
+          "text": "Masala Chai"
+        },
+        {
+          "id": "food_182",
+          "text": "Ginger Tea"
+        },
+        {
+          "id": "food_183",
+          "text": "Turmeric Milk"
+        },
+        {
+          "id": "food_184",
+          "text": "Cardamom Tea"
+        },
+        {
+          "id": "food_185",
+          "text": "Chai Latte"
+        },
+        {
+          "id": "food_186",
+          "text": "Iced Tea"
+        },
+        {
+          "id": "food_187",
+          "text": "Iced Coffee"
+        },
+        {
+          "id": "food_188",
+          "text": "Kahawa"
+        },
+        {
+          "id": "food_189",
+          "text": "Kashmiri Tea"
+        },
+        {
+          "id": "food_190",
+          "text": "Noon Chai"
+        },
+        {
+          "id": "food_191",
+          "text": "Buttermilk Plain"
+        },
+        {
+          "id": "food_192",
+          "text": "Lassi Sweet"
+        },
+        {
+          "id": "food_193",
+          "text": "Mango Juice"
+        },
+        {
+          "id": "food_194",
+          "text": "Guava Juice"
+        },
+        {
+          "id": "food_195",
+          "text": "Pomegranate Juice"
+        },
+        {
+          "id": "food_196",
+          "text": "Sugar Cane Juice"
+        },
+        {
+          "id": "food_197",
+          "text": "Coconut Water"
+        },
+        {
+          "id": "food_198",
+          "text": "Tender Coconut"
+        },
+        {
+          "id": "food_199",
+          "text": "Nimbu Soda"
+        },
+        {
+          "id": "food_200",
+          "text": "Lemonade"
+        }
+      ]
+    },
+    {
+      "id": "bollywood_songs",
+      "title": "Bollywood Songs",
+      "image": "songs_bg",
+      "background_color": "#E91E63",
+      "is_active": true,
+      "description": [
+        "Hum the tune",
+        "Dance to it",
+        "No singing lyrics"
+      ],
+      "words": [
+        {
+          "id": "song_001",
+          "text": "Kya Hua Tera Wada"
+        },
+        {
+          "id": "song_002",
+          "text": "Kabhi Kabhi Mere Dil Mein"
+        },
+        {
+          "id": "song_003",
+          "text": "Tujhe Dekha Toh Ye Khayal Mera"
+        },
+        {
+          "id": "song_004",
+          "text": "Sheeshe Ke Mahal Mein"
+        },
+        {
+          "id": "song_005",
+          "text": "Mera Dil Ye Pooche"
+        },
+        {
+          "id": "song_006",
+          "text": "Dost Dost Na Raha"
+        },
+        {
+          "id": "song_007",
+          "text": "Yaad Aa Raha Hai"
+        },
+        {
+          "id": "song_008",
+          "text": "Paise Bahaut Kaam Kee Cheez Hai"
+        },
+        {
+          "id": "song_009",
+          "text": "Nain Mile Nain Se"
+        },
+        {
+          "id": "song_010",
+          "text": "Ankhiyon Se Goli Maare"
+        },
+        {
+          "id": "song_011",
+          "text": "Taal Milo Mere Aangan Mein"
+        },
+        {
+          "id": "song_012",
+          "text": "Mere Naina Sawan Bhadon"
+        },
+        {
+          "id": "song_013",
+          "text": "Dekha Ek Khwab"
+        },
+        {
+          "id": "song_014",
+          "text": "Naina Bhar Aaye"
+        },
+        {
+          "id": "song_015",
+          "text": "Char Chand Ka Chehra"
+        },
+        {
+          "id": "song_016",
+          "text": "Pyaar Kiya To Darna Nahin"
+        },
+        {
+          "id": "song_017",
+          "text": "Ek Ladki Ko Dekha To"
+        },
+        {
+          "id": "song_018",
+          "text": "Mere Haath Mein"
+        },
+        {
+          "id": "song_019",
+          "text": "Lage Nahi Tore Bina"
+        },
+        {
+          "id": "song_020",
+          "text": "Aaj Kal Tere Bina"
+        },
+        {
+          "id": "song_021",
+          "text": "Taal Se Judi Hai"
+        },
+        {
+          "id": "song_022",
+          "text": "Khud Se Zyada Kisi Ko"
+        },
+        {
+          "id": "song_023",
+          "text": "Jhoom Barabar Jhoom"
+        },
+        {
+          "id": "song_024",
+          "text": "Chikni Chameli"
+        },
+        {
+          "id": "song_025",
+          "text": "Kabhi Aisa Bhi Kiya Na Tha"
+        },
+        {
+          "id": "song_026",
+          "text": "Ishq Samay"
+        },
+        {
+          "id": "song_027",
+          "text": "Mere Liye Tum Kafi Ho"
+        },
+        {
+          "id": "song_028",
+          "text": "Jaane Tu Yaa Jaane Na"
+        },
+        {
+          "id": "song_029",
+          "text": "Tujhe Bhula Doon"
+        },
+        {
+          "id": "song_030",
+          "text": "Kuch Bhi Mat Soch Pagle"
+        },
+        {
+          "id": "song_031",
+          "text": "Yeh Ladka Hai Deewana"
+        },
+        {
+          "id": "song_032",
+          "text": "Kuch Kuch Hota Hai"
+        },
+        {
+          "id": "song_033",
+          "text": "Tujhe Yaad Na Meri Aaye"
+        },
+        {
+          "id": "song_034",
+          "text": "Tujhe Dekha"
+        },
+        {
+          "id": "song_035",
+          "text": "Jab Tak Hai Jaan"
+        },
+        {
+          "id": "song_036",
+          "text": "Jab We Met Title Track"
+        },
+        {
+          "id": "song_037",
+          "text": "Dhoom Machale"
+        },
+        {
+          "id": "song_038",
+          "text": "Kal Ho Naa Ho"
+        },
+        {
+          "id": "song_039",
+          "text": "Saath Saath Jayenge"
+        },
+        {
+          "id": "song_040",
+          "text": "Khwaja Mere Khwaja"
+        },
+        {
+          "id": "song_041",
+          "text": "Yeh Dillagi"
+        },
+        {
+          "id": "song_042",
+          "text": "Kaan Mi Dekha To"
+        },
+        {
+          "id": "song_043",
+          "text": "Pyaar Hua Ikrar Hua"
+        },
+        {
+          "id": "song_044",
+          "text": "Tere Liye Mujhe Jeena"
+        },
+        {
+          "id": "song_045",
+          "text": "Yaad Hai Na"
+        },
+        {
+          "id": "song_046",
+          "text": "Dilwaale Dulhania Le Jayenge"
+        },
+        {
+          "id": "song_047",
+          "text": "Gerua"
+        },
+        {
+          "id": "song_048",
+          "text": "Baarish"
+        },
+        {
+          "id": "song_049",
+          "text": "Jag Ghoomeya"
+        },
+        {
+          "id": "song_050",
+          "text": "Raabta"
+        },
+        {
+          "id": "song_051",
+          "text": "Teri Ore"
+        },
+        {
+          "id": "song_052",
+          "text": "Rah Gyi Rah Jayegi"
+        },
+        {
+          "id": "song_053",
+          "text": "Sheeshe Ka Paani"
+        },
+        {
+          "id": "song_054",
+          "text": "Mere Paas Aao"
+        },
+        {
+          "id": "song_055",
+          "text": "Tere Bina Jeevan Se Bhi Moh Gaya"
+        },
+        {
+          "id": "song_056",
+          "text": "Laal Dupatta"
+        },
+        {
+          "id": "song_057",
+          "text": "Rang De Basanti"
+        },
+        {
+          "id": "song_058",
+          "text": "Pappu Cant Dance Sala"
+        },
+        {
+          "id": "song_059",
+          "text": "Mundian To Bach Ke"
+        },
+        {
+          "id": "song_060",
+          "text": "Gallan Goodiyaan"
+        },
+        {
+          "id": "song_061",
+          "text": "Teri Meri Kahani"
+        },
+        {
+          "id": "song_062",
+          "text": "Dooriyan"
+        },
+        {
+          "id": "song_063",
+          "text": "Bahara Bahara"
+        },
+        {
+          "id": "song_064",
+          "text": "Tum Ho"
+        },
+        {
+          "id": "song_065",
+          "text": "Bulleya Ki Jaana"
+        },
+        {
+          "id": "song_066",
+          "text": "Khoon Chale"
+        },
+        {
+          "id": "song_067",
+          "text": "Zaruri Hai"
+        },
+        {
+          "id": "song_068",
+          "text": "Naina Thag Lenge"
+        },
+        {
+          "id": "song_069",
+          "text": "Yeh Ishq Hai"
+        },
+        {
+          "id": "song_070",
+          "text": "Rehmat"
+        },
+        {
+          "id": "song_071",
+          "text": "Khula Hai Mera Aasman"
+        },
+        {
+          "id": "song_072",
+          "text": "Taaliya"
+        },
+        {
+          "id": "song_073",
+          "text": "Humdard"
+        },
+        {
+          "id": "song_074",
+          "text": "Humsafar"
+        },
+        {
+          "id": "song_075",
+          "text": "Humma Humma"
+        },
+        {
+          "id": "song_076",
+          "text": "Jaadu Hai Nasha"
+        },
+        {
+          "id": "song_077",
+          "text": "Pehla Nasha"
+        },
+        {
+          "id": "song_078",
+          "text": "Yaraana"
+        },
+        {
+          "id": "song_079",
+          "text": "Zara Zara"
+        },
+        {
+          "id": "song_080",
+          "text": "Tum Prem Ho"
+        },
+        {
+          "id": "song_081",
+          "text": "Gooey Gooey"
+        },
+        {
+          "id": "song_082",
+          "text": "Bekhayali"
+        },
+        {
+          "id": "song_083",
+          "text": "Sadak Wahi Thi"
+        },
+        {
+          "id": "song_084",
+          "text": "Chaleya Chaleya"
+        },
+        {
+          "id": "song_085",
+          "text": "Pehle Bhi Main"
+        },
+        {
+          "id": "song_086",
+          "text": "Baarish Ban Jaana"
+        },
+        {
+          "id": "song_087",
+          "text": "Tera Ghata"
+        },
+        {
+          "id": "song_088",
+          "text": "Tera Naam Tha"
+        },
+        {
+          "id": "song_089",
+          "text": "Khule Aasman Ke Neeche"
+        },
+        {
+          "id": "song_090",
+          "text": "Paani Paani"
+        },
+        {
+          "id": "song_091",
+          "text": "Bijli"
+        },
+        {
+          "id": "song_092",
+          "text": "Kesariya"
+        },
+        {
+          "id": "song_093",
+          "text": "Raatan Lambiyan"
+        },
+        {
+          "id": "song_094",
+          "text": "Naatu Naatu"
+        },
+        {
+          "id": "song_095",
+          "text": "Neend Ud Gayi Meri"
+        },
+        {
+          "id": "song_096",
+          "text": "Tumhare Bina Hum"
+        },
+        {
+          "id": "song_097",
+          "text": "Aashiyana"
+        },
+        {
+          "id": "song_098",
+          "text": "Noor"
+        },
+        {
+          "id": "song_099",
+          "text": "Tum Hi Ho"
+        },
+        {
+          "id": "song_100",
+          "text": "Aashqu Ban Gayi Hoon Main"
+        },
+        {
+          "id": "song_101",
+          "text": "Dil Mein Ho Tum"
+        },
+        {
+          "id": "song_102",
+          "text": "Nashe Si Chad Gayi"
+        },
+        {
+          "id": "song_103",
+          "text": "Yeh Tune Kya Kiya"
+        },
+        {
+          "id": "song_104",
+          "text": "Aankhon Se Baat Karunga"
+        },
+        {
+          "id": "song_105",
+          "text": "Gulabi Aankhein"
+        },
+        {
+          "id": "song_106",
+          "text": "Gulabi Shaam"
+        },
+        {
+          "id": "song_107",
+          "text": "Naina Ladh Jayenge"
+        },
+        {
+          "id": "song_108",
+          "text": "Banayenge Teri Murti"
+        },
+        {
+          "id": "song_109",
+          "text": "O Sanam"
+        },
+        {
+          "id": "song_110",
+          "text": "Tujhe Dekhunga"
+        },
+        {
+          "id": "song_111",
+          "text": "Mere Liye Tum"
+        },
+        {
+          "id": "song_112",
+          "text": "Aashqu Ban Gayi Hoon"
+        },
+        {
+          "id": "song_113",
+          "text": "Dilbaro"
+        },
+        {
+          "id": "song_114",
+          "text": "Shuddh Desi Romance"
+        },
+        {
+          "id": "song_115",
+          "text": "Tum Hi Ho Main"
+        },
+        {
+          "id": "song_116",
+          "text": "Tum Mere Pas Ho"
+        },
+        {
+          "id": "song_117",
+          "text": "Tum Sang Yaara"
+        },
+        {
+          "id": "song_118",
+          "text": "Naach Meri Phoolwa"
+        },
+        {
+          "id": "song_119",
+          "text": "Chokher Bali"
+        },
+        {
+          "id": "song_120",
+          "text": "Phoolon Mein Rachi Baat Hai"
+        },
+        {
+          "id": "song_121",
+          "text": "Tere Bina Jeevan"
+        },
+        {
+          "id": "song_122",
+          "text": "Raataan Lambiyan"
+        },
+        {
+          "id": "song_123",
+          "text": "Kesariya Teri Kasam"
+        },
+        {
+          "id": "song_124",
+          "text": "Besharam Rang"
+        },
+        {
+          "id": "song_125",
+          "text": "Dil Bechara Hai"
+        },
+        {
+          "id": "song_126",
+          "text": "Badhaai Ho"
+        },
+        {
+          "id": "song_127",
+          "text": "Joyrides"
+        },
+        {
+          "id": "song_128",
+          "text": "Jeena Jeena"
+        },
+        {
+          "id": "song_129",
+          "text": "Pal Pal Dil Ke Paas"
+        },
+        {
+          "id": "song_130",
+          "text": "Haan Tum Ho"
+        },
+        {
+          "id": "song_131",
+          "text": "Pyaar Hona Chahiye"
+        },
+        {
+          "id": "song_132",
+          "text": "Ye Sham Mastani"
+        },
+        {
+          "id": "song_133",
+          "text": "Radha Radha"
+        },
+        {
+          "id": "song_134",
+          "text": "Teri Baaton Mein Aisa Uljha"
+        },
+        {
+          "id": "song_135",
+          "text": "Barbaad"
+        },
+        {
+          "id": "song_136",
+          "text": "Tumhein Apna Banaunga"
+        },
+        {
+          "id": "song_137",
+          "text": "Teri Haar"
+        },
+        {
+          "id": "song_138",
+          "text": "Rang De Basanti"
+        },
+        {
+          "id": "song_139",
+          "text": "Jai Ho"
+        },
+        {
+          "id": "song_140",
+          "text": "Vande Mataram"
+        },
+        {
+          "id": "song_141",
+          "text": "Jana Gana Mana"
+        },
+        {
+          "id": "song_142",
+          "text": "Azadi Ka Geet"
+        },
+        {
+          "id": "song_143",
+          "text": "Deshbhakti Geet"
+        },
+        {
+          "id": "song_144",
+          "text": "Bharat Matha Ki Jai"
+        },
+        {
+          "id": "song_145",
+          "text": "Satyamev Jayate"
+        },
+        {
+          "id": "song_146",
+          "text": "Raaja Karega Khalsa"
+        },
+        {
+          "id": "song_147",
+          "text": "Mundian To Bach Ke"
+        },
+        {
+          "id": "song_148",
+          "text": "Tum Hi Ho"
+        },
+        {
+          "id": "song_149",
+          "text": "Bolna Tenu Yaad Hai"
+        },
+        {
+          "id": "song_150",
+          "text": "Badshah Hai Ye Aadmi"
+        },
+        {
+          "id": "song_151",
+          "text": "Kamli"
+        },
+        {
+          "id": "song_152",
+          "text": "Khud Se Zyada"
+        },
+        {
+          "id": "song_153",
+          "text": "Aaj Blue Hai Pani Pani"
+        },
+        {
+          "id": "song_154",
+          "text": "Holi Khele Raghuveera"
+        }
+      ]
+    },
+    {
+      "id": "cricketers",
+      "title": "Cricketers",
+      "image": "cricketers_bg",
+      "background_color": "#2196F3",
+      "is_active": true,
+      "description": [
+        "Mimic their style",
+        "Describe their achievements",
+        "No saying their name"
+      ],
+      "words": [
+        {
+          "id": "cric_001",
+          "text": "Sachin Tendulkar"
+        },
+        {
+          "id": "cric_002",
+          "text": "Sunil Gavaskar"
+        },
+        {
+          "id": "cric_003",
+          "text": "Rahul Dravid"
+        },
+        {
+          "id": "cric_004",
+          "text": "Virendra Sehwag"
+        },
+        {
+          "id": "cric_005",
+          "text": "Virat Kohli"
+        },
+        {
+          "id": "cric_006",
+          "text": "MS Dhoni"
+        },
+        {
+          "id": "cric_007",
+          "text": "Anil Kumble"
+        },
+        {
+          "id": "cric_008",
+          "text": "Kapil Dev"
+        },
+        {
+          "id": "cric_009",
+          "text": "Harbhajan Singh"
+        },
+        {
+          "id": "cric_010",
+          "text": "Ravi Shastri"
+        },
+        {
+          "id": "cric_011",
+          "text": "Navjot Singh Sidhu"
+        },
+        {
+          "id": "cric_012",
+          "text": "Ashish Nehra"
+        },
+        {
+          "id": "cric_013",
+          "text": "Venkatesh Prasad"
+        },
+        {
+          "id": "cric_014",
+          "text": "Ajay Jadeja"
+        },
+        {
+          "id": "cric_015",
+          "text": "Sourav Ganguly"
+        },
+        {
+          "id": "cric_016",
+          "text": "Javagal Srinath"
+        },
+        {
+          "id": "cric_017",
+          "text": "Yuvraj Singh"
+        },
+        {
+          "id": "cric_018",
+          "text": "Gautam Gambhir"
+        },
+        {
+          "id": "cric_019",
+          "text": "Irfan Pathan"
+        },
+        {
+          "id": "cric_020",
+          "text": "Munaf Patel"
+        },
+        {
+          "id": "cric_021",
+          "text": "Rohit Sharma"
+        },
+        {
+          "id": "cric_022",
+          "text": "Shikhar Dhawan"
+        },
+        {
+          "id": "cric_023",
+          "text": "Ajinkya Rahane"
+        },
+        {
+          "id": "cric_024",
+          "text": "Cheteshwar Pujara"
+        },
+        {
+          "id": "cric_025",
+          "text": "Rishabh Pant"
+        },
+        {
+          "id": "cric_026",
+          "text": "KL Rahul"
+        },
+        {
+          "id": "cric_027",
+          "text": "Shreyas Iyer"
+        },
+        {
+          "id": "cric_028",
+          "text": "Sanju Samson"
+        },
+        {
+          "id": "cric_029",
+          "text": "Suryakumar Yadav"
+        },
+        {
+          "id": "cric_030",
+          "text": "Ishan Kishan"
+        },
+        {
+          "id": "cric_031",
+          "text": "Jasprit Bumrah"
+        },
+        {
+          "id": "cric_032",
+          "text": "Mohammed Shami"
+        },
+        {
+          "id": "cric_033",
+          "text": "Bhuvneshwar Kumar"
+        },
+        {
+          "id": "cric_034",
+          "text": "Hardik Pandya"
+        },
+        {
+          "id": "cric_035",
+          "text": "Shardul Thakur"
+        },
+        {
+          "id": "cric_036",
+          "text": "Siraj Mohammed"
+        },
+        {
+          "id": "cric_037",
+          "text": "Avesh Khan"
+        },
+        {
+          "id": "cric_038",
+          "text": "Prasidh Krishna"
+        },
+        {
+          "id": "cric_039",
+          "text": "Arshdeep Singh"
+        },
+        {
+          "id": "cric_040",
+          "text": "Mukesh Kumar"
+        },
+        {
+          "id": "cric_041",
+          "text": "Navdeep Saini"
+        },
+        {
+          "id": "cric_042",
+          "text": "Umesh Yadav"
+        },
+        {
+          "id": "cric_043",
+          "text": "Ishant Sharma"
+        },
+        {
+          "id": "cric_044",
+          "text": "Piyush Chawla"
+        },
+        {
+          "id": "cric_045",
+          "text": "Deepak Chahar"
+        },
+        {
+          "id": "cric_046",
+          "text": "Axar Patel"
+        },
+        {
+          "id": "cric_047",
+          "text": "Umran Malik"
+        },
+        {
+          "id": "cric_048",
+          "text": "Mayank Yadav"
+        },
+        {
+          "id": "cric_049",
+          "text": "Washington Sundar"
+        },
+        {
+          "id": "cric_050",
+          "text": "Varun Chakravarthy"
+        },
+        {
+          "id": "cric_051",
+          "text": "Ravichandran Ashwin"
+        },
+        {
+          "id": "cric_052",
+          "text": "Ravindra Jadeja"
+        },
+        {
+          "id": "cric_053",
+          "text": "Yuzvendra Chahal"
+        },
+        {
+          "id": "cric_054",
+          "text": "Kuldeep Yadav"
+        },
+        {
+          "id": "cric_055",
+          "text": "Sundar Sundaramurthy"
+        },
+        {
+          "id": "cric_056",
+          "text": "Ravi Bishnoi"
+        },
+        {
+          "id": "cric_057",
+          "text": "Pragya Ojha"
+        },
+        {
+          "id": "cric_058",
+          "text": "Anjum Chopra"
+        },
+        {
+          "id": "cric_059",
+          "text": "Mithali Raj"
+        },
+        {
+          "id": "cric_060",
+          "text": "Jhulan Goswami"
+        },
+        {
+          "id": "cric_061",
+          "text": "Poonam Yadav"
+        },
+        {
+          "id": "cric_062",
+          "text": "Deepti Sharma"
+        },
+        {
+          "id": "cric_063",
+          "text": "Shikha Pandey"
+        },
+        {
+          "id": "cric_064",
+          "text": "Renuka Singh"
+        },
+        {
+          "id": "cric_065",
+          "text": "Radha Yadav"
+        },
+        {
+          "id": "cric_066",
+          "text": "Brian Lara"
+        },
+        {
+          "id": "cric_067",
+          "text": "Ricky Ponting"
+        },
+        {
+          "id": "cric_068",
+          "text": "Don Bradman"
+        },
+        {
+          "id": "cric_069",
+          "text": "Jacques Kallis"
+        },
+        {
+          "id": "cric_070",
+          "text": "Kumar Sangakkara"
+        },
+        {
+          "id": "cric_071",
+          "text": "Mahela Jayawardene"
+        },
+        {
+          "id": "cric_072",
+          "text": "Steve Smith"
+        },
+        {
+          "id": "cric_073",
+          "text": "Graeme Smith"
+        },
+        {
+          "id": "cric_074",
+          "text": "Kane Williamson"
+        },
+        {
+          "id": "cric_075",
+          "text": "Christy Gayle"
+        },
+        {
+          "id": "cric_076",
+          "text": "Ross Taylor"
+        },
+        {
+          "id": "cric_077",
+          "text": "Alastair Cook"
+        },
+        {
+          "id": "cric_078",
+          "text": "Mark Waugh"
+        },
+        {
+          "id": "cric_079",
+          "text": "Steve Waugh"
+        },
+        {
+          "id": "cric_080",
+          "text": "Adam Gilchrist"
+        },
+        {
+          "id": "cric_081",
+          "text": "Shane Warne"
+        },
+        {
+          "id": "cric_082",
+          "text": "Glenn McGrath"
+        },
+        {
+          "id": "cric_083",
+          "text": "Wasim Akram"
+        },
+        {
+          "id": "cric_084",
+          "text": "Curtly Ambrose"
+        },
+        {
+          "id": "cric_085",
+          "text": "Dale Steyn"
+        },
+        {
+          "id": "cric_086",
+          "text": "Vernon Philander"
+        },
+        {
+          "id": "cric_087",
+          "text": "BJ Watling"
+        },
+        {
+          "id": "cric_088",
+          "text": "Tim Murtagh"
+        },
+        {
+          "id": "cric_089",
+          "text": "Quinton De Kock"
+        },
+        {
+          "id": "cric_090",
+          "text": "Kagiso Rabada"
+        },
+        {
+          "id": "cric_091",
+          "text": "Mitchell Starc"
+        },
+        {
+          "id": "cric_092",
+          "text": "Pat Cummins"
+        },
+        {
+          "id": "cric_093",
+          "text": "Josh Hazlewood"
+        },
+        {
+          "id": "cric_094",
+          "text": "Trent Boult"
+        },
+        {
+          "id": "cric_095",
+          "text": "Neil Wagner"
+        },
+        {
+          "id": "cric_096",
+          "text": "Aaron Finch"
+        },
+        {
+          "id": "cric_097",
+          "text": "Mitchell Marsh"
+        },
+        {
+          "id": "cric_098",
+          "text": "Glenn Maxwell"
+        },
+        {
+          "id": "cric_099",
+          "text": "David Warner"
+        },
+        {
+          "id": "cric_100",
+          "text": "Babar Azam"
+        },
+        {
+          "id": "cric_101",
+          "text": "Muhammad Rizwan"
+        },
+        {
+          "id": "cric_102",
+          "text": "Fakhar Zaman"
+        },
+        {
+          "id": "cric_103",
+          "text": "Shahid Afridi"
+        },
+        {
+          "id": "cric_104",
+          "text": "Shoaib Malik"
+        },
+        {
+          "id": "cric_105",
+          "text": "Misbah-ul-Haq"
+        },
+        {
+          "id": "cric_106",
+          "text": "Kevin Pietersen"
+        },
+        {
+          "id": "cric_107",
+          "text": "Paul Collingwood"
+        },
+        {
+          "id": "cric_108",
+          "text": "Joe Root"
+        },
+        {
+          "id": "cric_109",
+          "text": "Jos Buttler"
+        },
+        {
+          "id": "cric_110",
+          "text": "Ben Stokes"
+        },
+        {
+          "id": "cric_111",
+          "text": "Johnny Bairstow"
+        },
+        {
+          "id": "cric_112",
+          "text": "Sam Curran"
+        },
+        {
+          "id": "cric_113",
+          "text": "Mark Richardson"
+        },
+        {
+          "id": "cric_114",
+          "text": "Tim Southee"
+        },
+        {
+          "id": "cric_115",
+          "text": "Daniel Vettori"
+        },
+        {
+          "id": "cric_116",
+          "text": "Brendon McCullum"
+        },
+        {
+          "id": "cric_117",
+          "text": "Martin Guptill"
+        },
+        {
+          "id": "cric_118",
+          "text": "Sarfraz Ahmed"
+        },
+        {
+          "id": "cric_119",
+          "text": "Kamran Akmal"
+        },
+        {
+          "id": "cric_120",
+          "text": "Ian Healy"
+        },
+        {
+          "id": "cric_121",
+          "text": "Alec Stewart"
+        },
+        {
+          "id": "cric_122",
+          "text": "Matt Prior"
+        },
+        {
+          "id": "cric_123",
+          "text": "Shakib Al Hasan"
+        },
+        {
+          "id": "cric_124",
+          "text": "Soumya Sarkar"
+        },
+        {
+          "id": "cric_125",
+          "text": "Mushfiqur Rahman"
+        },
+        {
+          "id": "cric_126",
+          "text": "Mehidy Miraz"
+        },
+        {
+          "id": "cric_127",
+          "text": "Faf du Plessis"
+        },
+        {
+          "id": "cric_128",
+          "text": "JP Duminy"
+        },
+        {
+          "id": "cric_129",
+          "text": "Hashim Amla"
+        },
+        {
+          "id": "cric_130",
+          "text": "David Miller"
+        },
+        {
+          "id": "cric_131",
+          "text": "AB De Villiers"
+        },
+        {
+          "id": "cric_132",
+          "text": "Marcus Stoinis"
+        },
+        {
+          "id": "cric_133",
+          "text": "Dan Christian"
+        },
+        {
+          "id": "cric_134",
+          "text": "Marnus Labuschagne"
+        },
+        {
+          "id": "cric_135",
+          "text": "Matthew Wade"
+        },
+        {
+          "id": "cric_136",
+          "text": "Marcus Harris"
+        },
+        {
+          "id": "cric_137",
+          "text": "Travis Head"
+        },
+        {
+          "id": "cric_138",
+          "text": "Cameron Green"
+        },
+        {
+          "id": "cric_139",
+          "text": "Scott Boland"
+        },
+        {
+          "id": "cric_140",
+          "text": "Alyssa Healy"
+        },
+        {
+          "id": "cric_141",
+          "text": "Meg Lanning"
+        },
+        {
+          "id": "cric_142",
+          "text": "Sophie Devine"
+        },
+        {
+          "id": "cric_143",
+          "text": "Ellyse Perry"
+        },
+        {
+          "id": "cric_144",
+          "text": "Nat Sciver"
+        },
+        {
+          "id": "cric_145",
+          "text": "Danni Wyatt"
+        },
+        {
+          "id": "cric_146",
+          "text": "Amy Jones"
+        },
+        {
+          "id": "cric_147",
+          "text": "Tammy Beaumont"
+        },
+        {
+          "id": "cric_148",
+          "text": "Hayley Matthews"
+        },
+        {
+          "id": "cric_149",
+          "text": "Deandra Dottin"
+        },
+        {
+          "id": "cric_150",
+          "text": "Harmanpreet Kaur"
+        },
+        {
+          "id": "cric_151",
+          "text": "Smriti Mandhana"
+        },
+        {
+          "id": "cric_152",
+          "text": "Shefali Verma"
+        },
+        {
+          "id": "cric_153",
+          "text": "Yashashvi Jaiswal"
+        },
+        {
+          "id": "cric_154",
+          "text": "Devdutt Padikkal"
+        },
+        {
+          "id": "cric_155",
+          "text": "Ruturaj Gaikwad"
+        },
+        {
+          "id": "cric_156",
+          "text": "Prithvi Shaw"
+        },
+        {
+          "id": "cric_157",
+          "text": "Sai Pallavi"
+        },
+        {
+          "id": "cric_158",
+          "text": "Nivetha Thomas"
+        },
+        {
+          "id": "cric_159",
+          "text": "Pooja Vastrakar"
+        },
+        {
+          "id": "cric_160",
+          "text": "Meghna Singh"
+        },
+        {
+          "id": "cric_161",
+          "text": "Minnu Mani"
+        },
+        {
+          "id": "cric_162",
+          "text": "Taniya Bhatia"
+        },
+        {
+          "id": "cric_163",
+          "text": "Aishwarya Reddy"
+        },
+        {
+          "id": "cric_164",
+          "text": "Dayalan Hemalatha"
+        }
       ]
     }
   ]
