@@ -3730,44 +3730,6 @@
           "text": "Dayalan Hemalatha"
         }
       ]
-    },
-        {
-      "id": "cricketers2",
-      "title": "Cricketers2",
-      "image": "cricketers_bg",
-      "background_color": "#2196F3",
-      "is_active": true,
-      "description": [
-        "Mimic their style",
-        "Describe their achievements",
-        "No saying their name"
-      ],
-      "words": [
-        {
-          "id": "cric_001",
-          "text": "Sachin Tendulkar"
-        },
-        {
-          "id": "cric_002",
-          "text": "Sunil Gavaskar"
-        },
-        {
-          "id": "cric_003",
-          "text": "Rahul Dravid"
-        },
-        {
-          "id": "cric_004",
-          "text": "Virendra Sehwag"
-        },
-        {
-          "id": "cric_005",
-          "text": "Virat Kohli"
-        },
-        {
-          "id": "cric_006",
-          "text": "MS Dhoni"
-        }
-      ]
     }
   ]
 }
